@@ -1,5 +1,6 @@
 #include "exceltopdf.h"
 #include <qobject.h>
+#include <QtXlsx>
 
 ExcelToPdf::ExcelToPdf(QWidget *parent)
 	: QMainWindow(parent)

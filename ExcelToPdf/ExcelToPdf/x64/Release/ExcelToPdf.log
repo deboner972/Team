@@ -1,16 +1,27 @@
-﻿빌드 시작: 2017-12-26 오후 4:09:37
-     1>2 노드의 "C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트(Build 대상)입니다.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\ActiveQt /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt exceltopdf.cpp
+﻿빌드 시작: 2017-12-27 오전 10:39:37
+     1>2 노드의 "C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트(Build 대상)입니다.
+     1>CustomBuild:
+         Moc'ing exceltopdf.h...
+         Uic'ing exceltopdf.ui...
+         Rcc'ing exceltopdf.qrc...
+     1>RCC : warning : No resources in 'C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\exceltopdf.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\ActiveQt /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt exceltopdf.cpp GeneratedFiles\Release\moc_exceltopdf.cpp main.cpp
          exceltopdf.cpp
+         moc_exceltopdf.cpp
+         main.cpp
+         코드를 생성하고 있습니다...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\ActiveQt /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_exceltopdf.cpp
+         qrc_exceltopdf.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Release\\ExcelToPdf.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5AxContainer.lib Qt5AxBase.lib Qt5PrintSupport.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Release\ExcelToPdf.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Release\ExcelToPdf.lib" /MACHINE:X64 x64\Release\exceltopdf.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Release\\ExcelToPdf.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5AxContainer.lib Qt5AxBase.lib Qt5PrintSupport.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Release\ExcelToPdf.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Release\ExcelToPdf.lib" /MACHINE:X64 x64\Release\exceltopdf.obj
          x64\Release\qrc_exceltopdf.obj
          x64\Release\moc_exceltopdf.obj
          x64\Release\main.obj
-         ExcelToPdf.vcxproj -> C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Release\ExcelToPdf.exe
-     1>"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         ExcelToPdf.vcxproj -> C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Release\ExcelToPdf.exe
+     1>"C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:01.28
+경과 시간: 00:00:04.08
