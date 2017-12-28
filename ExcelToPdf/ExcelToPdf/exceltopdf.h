@@ -15,10 +15,11 @@ public:
 private slots:
 	void setExcelPath();
 	void setPdfPath();
-	void convertPdf();
+	void convertPdf(int argc, char *argv[]);
 
 private:
 	Ui::ExcelToPdfClass ui;
+	QTextBrowser *textBrowser_2;
 };
 
 #endif // EXCELTOPDF_H

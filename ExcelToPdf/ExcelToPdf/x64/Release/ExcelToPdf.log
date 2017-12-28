@@ -1,45 +1,5 @@
-﻿빌드 시작: 2017-12-28 오후 1:11:53
-     1>2 노드의 "C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트(Build 대상)입니다.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\ActiveQt /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtPrintSupport /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt exceltopdf.cpp
-         exceltopdf.cpp
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(1): error C2059: 구문 오류 : '<'
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(2): error C2018: '0x60' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x4' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x1' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x3' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x5' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0xe' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x6' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x2' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x60' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x7' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2059: 구문 오류 : '숫자의 접미사가 잘못되었습니다.'
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x1d' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(3): error C2018: '0x1e' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(4): error C2018: '0x1' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(5): error C2018: '0x1' 문자를 인식할 수 없습니다.
-     1>c:\libxl-3.8.1.0\lib\libxl.lib(5): error C2018: '0x1b' 문자를 인식할 수 없습니다.
-     1>exceltopdf.cpp(5): error C2143: 구문 오류 : ')'이(가) ';' 앞에 없습니다.
-     1>exceltopdf.cpp(34): error C2065: 'Book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(34): error C2065: 'book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(35): error C2065: 'book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(37): error C2065: 'book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(37): error C2227: '->load' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
-                 'unknown-type' 형식입니다.
-     1>exceltopdf.cpp(39): error C2065: 'Sheet' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(39): error C2065: 'sheet' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(39): error C2065: 'book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(39): error C2227: '->getSheet' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
-                 'unknown-type' 형식입니다.
-     1>exceltopdf.cpp(41): error C2065: 'book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(41): error C2227: '->save' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
-                 'unknown-type' 형식입니다.
-     1>exceltopdf.cpp(43): error C2065: 'book' : 선언되지 않은 식별자입니다.
-     1>exceltopdf.cpp(43): error C2227: '->release' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
-                 'unknown-type' 형식입니다.
-     1>"C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+﻿빌드 시작: 2017-12-28 오후 1:58:43
 
-빌드하지 못했습니다.
+빌드했습니다.
 
-경과 시간: 00:00:01.79
+경과 시간: 00:00:00.06

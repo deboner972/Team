@@ -1,5 +1,5 @@
-﻿빌드 시작: 2017-12-26 오후 3:00:42
-     1>2 노드의 "C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 2017-12-28 오후 3:42:42
+     1>2 노드의 "C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트(Build 대상)입니다.
      1>CustomBuild:
          Moc'ing exceltopdf.h...
        ClCompile:
@@ -9,13 +9,13 @@
          main.cpp
          코드를 생성하고 있습니다...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Debug\\ExcelToPdf.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5AxContainerd.lib Qt5AxBased.lib Qt5PrintSupportd.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Debug\ExcelToPdf.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Debug\ExcelToPdf.lib" /MACHINE:X64 x64\Debug\exceltopdf.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Debug\\ExcelToPdf.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5AxContainerd.lib Qt5AxBased.lib Qt5PrintSupportd.lib Qt5Widgetsd.lib Qt5AxBase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Debug\ExcelToPdf.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Debug\ExcelToPdf.lib" /MACHINE:X64 x64\Debug\exceltopdf.obj
          x64\Debug\moc_exceltopdf.obj
          x64\Debug\qrc_exceltopdf.obj
          x64\Debug\main.obj
-         ExcelToPdf.vcxproj -> C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\x64\Debug\ExcelToPdf.exe
-     1>"C:\Users\S550\Pictures\ExcelToPDF\fileQT\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+         ExcelToPdf.vcxproj -> C:\weunus\projectBackup\Team\Team\ExcelToPdf\x64\Debug\ExcelToPdf.exe
+     1>"C:\weunus\projectBackup\Team\Team\ExcelToPdf\ExcelToPdf\ExcelToPdf.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:03.68
+경과 시간: 00:00:07.62
