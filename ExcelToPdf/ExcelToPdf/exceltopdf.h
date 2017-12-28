@@ -19,6 +19,7 @@ private slots:
 
 private:
 	Ui::ExcelToPdfClass ui;
+	QTextBrowser *textBrowser_2;
 };
 
 #endif // EXCELTOPDF_H

@@ -4,6 +4,10 @@
 #include <QPageSetupDialog>
 #include <qprinter.h>
 #include <qprintpreviewdialog.h>
+#include <QFileDialog>
+
+QString g_sParamSourceBookPath; //엑셀 파일 경로
+QString g_sParamExportFilePath; //pdf 파일 경로
 
 ExcelToPdf::ExcelToPdf(QWidget *parent)
 	: QMainWindow(parent)
@@ -25,9 +29,17 @@ void ExcelToPdf::setExcelPath()
 	
 }
 
-void ExcelToPdf::setPdfPath()
+void ExcelToPdf::setPdfPath() //PDF 저장 경로 읽어오기
 {
-	
+	/* 1. QFileDialog로 PDF파일 저장 경로 지정
+	2. textBrowser_2에 저장 경로 및 파일명 출력 */
+
+	QString m_sSzFilter = "PDF Files(*.pdf)|*.pdf||"; //파일 확장자 지정
+	QFileDialog m_dlg;
+	g_sParamExportFilePath = m_dlg.getSaveFileName(this, tr("Save File"), tr("C://"), m_sSzFilter);
+
+	textBrowser_2 = ui.textBrowser_2;
+	textBrowser_2->setText(g_sParamExportFilePath); //textBrowser에 저장 경로, 파일명 출력
 }
 
 
