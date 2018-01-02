@@ -3,6 +3,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_exceltopdf.h"
+#include "c:\Qt\Qt5.6.3\QtXlsxWriter-master\include\QtXlsx\xlsxdocument.h"
 
 class ExcelToPdf : public QMainWindow
 {
@@ -12,14 +13,15 @@ public:
 	ExcelToPdf(QWidget *parent = 0);
 	~ExcelToPdf();
 
-private slots:
+public slots:
 	void setExcelPath();
 	void setPdfPath();
-	void convertPdf(int argc, char *argv[]);
+	void convertPdf();
 
 private:
 	Ui::ExcelToPdfClass ui;
 	QTextBrowser *textBrowser_2;
+	QTextBrowser *textBrowser;
 };
 
 #endif // EXCELTOPDF_H

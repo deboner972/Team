@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_ExcelToPdf_t {
-    QByteArrayData data[8];
-    char stringdata0[65];
+    QByteArrayData data[5];
+    char stringdata0[47];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,14 +33,11 @@ QT_MOC_LITERAL(0, 0, 10), // "ExcelToPdf"
 QT_MOC_LITERAL(1, 11, 12), // "setExcelPath"
 QT_MOC_LITERAL(2, 24, 0), // ""
 QT_MOC_LITERAL(3, 25, 10), // "setPdfPath"
-QT_MOC_LITERAL(4, 36, 10), // "convertPdf"
-QT_MOC_LITERAL(5, 47, 4), // "argc"
-QT_MOC_LITERAL(6, 52, 7), // "char*[]"
-QT_MOC_LITERAL(7, 60, 4) // "argv"
+QT_MOC_LITERAL(4, 36, 10) // "convertPdf"
 
     },
     "ExcelToPdf\0setExcelPath\0\0setPdfPath\0"
-    "convertPdf\0argc\0char*[]\0argv"
+    "convertPdf"
 };
 #undef QT_MOC_LITERAL
 
@@ -58,14 +55,14 @@ static const uint qt_meta_data_ExcelToPdf[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   29,    2, 0x08 /* Private */,
-       3,    0,   30,    2, 0x08 /* Private */,
-       4,    2,   31,    2, 0x08 /* Private */,
+       1,    0,   29,    2, 0x0a /* Public */,
+       3,    0,   30,    2, 0x0a /* Public */,
+       4,    0,   31,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int, 0x80000000 | 6,    5,    7,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -78,10 +75,11 @@ void ExcelToPdf::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->setExcelPath(); break;
         case 1: _t->setPdfPath(); break;
-        case 2: _t->convertPdf((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< char*(*)[]>(_a[2]))); break;
+        case 2: _t->convertPdf(); break;
         default: ;
         }
     }
+    Q_UNUSED(_a);
 }
 
 const QMetaObject ExcelToPdf::staticMetaObject = {
