@@ -4,9 +4,13 @@
 #include <qaxobject.h>
 //FileDialog
 #include <QFileDialog>
+#include <QFileInfo>
+
 
 QString g_sParamSourceBookPath; //엑셀 파일 경로
+QString g_sParamExportFile; //pdf 파일 경로 및 파일명
 QString g_sParamExportFilePath; //pdf 파일 경로
+QString g_sParamExportFileName; //pdf 파일명
 
 
 ExcelToPdf::ExcelToPdf(QWidget *parent)
@@ -39,14 +43,16 @@ void ExcelToPdf::setExcelPath()
 void ExcelToPdf::setPdfPath() //PDF 저장 경로 읽어오기
 {
 	/* 1. QFileDialog로 PDF파일 저장 경로 지정
-	2. textBrowser_2에 저장 경로 및 파일명 출력 */
+	   2. textBrowser_2에 저장 경로 및 파일명 출력 */
 
 	QString m_sSzFilter = "PDF Files(*.pdf)|*.pdf||"; //파일 확장자 지정
 	QFileDialog m_dlg;
-	g_sParamExportFilePath = m_dlg.getSaveFileName(this, tr("Save File"), tr("C://"), m_sSzFilter);
+	g_sParamExportFile = m_dlg.getSaveFileName(this, tr("Save File"), tr("C://"), m_sSzFilter);
+	g_sParamExportFilePath = QFileInfo(g_sParamExportFile).path();
+	g_sParamExportFileName = QFileInfo(g_sParamExportFile).fileName();
 
 	textBrowser_2 = ui.textBrowser_2;
-	textBrowser_2->setText(g_sParamExportFilePath); //textBrowser에 저장 경로, 파일명 출력
+	textBrowser_2->setText(g_sParamExportFile); //textBrowser에 저장 경로, 파일명 출력
 }
 
 void ExcelToPdf::convertPdf() //PDF 변환
